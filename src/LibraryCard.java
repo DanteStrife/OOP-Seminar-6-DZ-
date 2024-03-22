@@ -2,7 +2,7 @@ package src;
 
 import java.awt.print.Book;
 
-public class LibraryCard<K, V> {
+public  class LibraryCard<K, V> {
     protected K numcard;
     private V bookdescription;
     public LibraryCard(K numcard, V bookdescription){
